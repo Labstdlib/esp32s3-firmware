@@ -3,7 +3,7 @@
 #include<ctype.h>
 #include<string.h>
 
-namespace vending {
+namespace eps32s3_firmware {
     
     inline bool equalIgnoreCase(const char* left, const char* right){
         if (left == nullptr || right == nullptr) {
@@ -39,4 +39,4 @@ namespace vending {
         output = static_cast<u_int16_t>(value);
         return true;
     }
-} // namespace vending
+} // namespace eps32s3_firmware

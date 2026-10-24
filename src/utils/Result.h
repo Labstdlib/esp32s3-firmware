@@ -1,14 +1,9 @@
 
-/*
- * Result.h
- * A simple result type for error handling output
- */
-
 #pragma once
 
 #include <stdint.h>
 
-namespace vending {
+namespace eps32s3_firmware {
     
     enum class ErrorCode : uint8_t {
         Ok = 0,
@@ -57,4 +52,4 @@ namespace vending {
         }
         return "UNKNOWN";
     }
-} // namespace vending
+} // namespace eps32s3_firmware

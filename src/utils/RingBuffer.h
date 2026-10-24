@@ -4,7 +4,7 @@
 #include<stddef.h>
 #include<stdint.h>
 
-namespace vending {
+namespace eps32s3_firmware {
     
     template<size_t Capacity>
     class RingBuffer {
@@ -53,4 +53,4 @@ namespace vending {
             size_t tail_ = 0;
             size_t size_ = 0;
     };
-} // namespace vending
+} // namespace eps32s3_firmware
