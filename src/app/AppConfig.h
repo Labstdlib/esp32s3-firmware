@@ -2,7 +2,7 @@
 
 #include <stdint.h>
 
-namespace vending {
+namespace eps32s3_firmware {
 
 struct AppConfig {
     static constexpr uint32_t kAndroidBaudRate = 115200;
@@ -23,4 +23,4 @@ struct AppConfig {
         "CHANGE-ME-TO-A-LONG-RANDOM-SECRET";
 };
 
-}  // namespace vending
+}  // namespace eps32s3_firmware
